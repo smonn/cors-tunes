@@ -1,0 +1,16 @@
+{
+  "name": "cors-tunes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec \"micro\"",
+    "start": "micro --listen tcp://0.0.0.0:${PORT-3000}"
+  },
+  "dependencies": {
+    "got": "^11.8.1",
+    "micro": "^9.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
